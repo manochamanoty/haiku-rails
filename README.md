@@ -97,6 +97,7 @@ bash install.sh
 ## カスタマイズ
 
 - **いちばん効くのは「良い例」を差し替えること**です。`~/.claude/skills/<名前>/references/` の例を、自分の会社の良いMR・良い課題コメント・良い計画に替えると、Haiku はその形をまねます。
+  - 会社の例は、入れた先（`~/.claude/`）だけで直してください。このリポジトリは公開なので、会社の情報を push しないでください。
 - スキルは `~/.claude/skills/<名前>/SKILL.md` を直接直して構いません。
   - `bash install.sh` をもう一度打つと上書きされます。前のものは `~/.claude/haiku-rails-backup/` に残ります。
   - 直したスキルを残したいときは、`bash install.sh --keep-skills` で入れます。

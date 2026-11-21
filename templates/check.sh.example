@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# プロジェクトの確認スクリプトの例。
+# 作業するリポジトリの .claude/check.sh として置くと、/impl の終わりに自動で走る（haiku-rails の Stop フック）。
+# 失敗したら 0 以外で終わる。速いものだけにする（1分以内が目安）。
+# リポジトリに入れたくなければ、.git/info/exclude に .claude/check.sh を足す。
+set -e
+
+# 例（使うものを1つ残して、# を外す）
+# npm run lint && npm test --silent
+# ruff check . && pytest -q
+# ./gradlew test --quiet
+# go vet ./... && go test ./...

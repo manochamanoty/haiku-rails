@@ -1,0 +1,20 @@
+{
+  "env": {
+    "CLAUDE_CODE_USE_BEDROCK": "1",
+    "AWS_REGION": "ap-northeast-1",
+    "ANTHROPIC_MODEL": "<Haiku 5.5 のID>",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "<Haiku 5.5 のID>",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "<Haiku 5.5 のID>",
+    "CLAUDE_CODE_SUBAGENT_MODEL": "<Haiku 5.5 のID>",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "<Opus 5.5 のID>",
+    "CLAUDE_CODE_AUTO_COMPACT_WINDOW": "100000"
+  },
+  "effortLevel": "high",
+  "modelSettings": {
+    "<Haiku 5.5 のID>": { "effortLevel": "high" }
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "bash ~/.claude/haiku-rails/statusline.sh"
+  }
+}
